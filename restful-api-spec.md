@@ -390,6 +390,10 @@ response.body (JSON)
         "yAxis": 0.004, // null | number
         /* Z 軸 */
         "zAxis": -0.965, // null | number,
+        /* 控制器是否延遲傳送 */
+        "realtime":treu, // null | boolean
+        /* 控制器回傳時間 */
+        "deviceTime": "2021-12-20T05:01:24" // null | string
       },
     },
   ],
@@ -523,6 +527,10 @@ response.body (JSON)
       "yAxis": 0.004, // null | number
       /* Z 軸 */
       "zAxis": -0.965, // null | number,
+      /* 控制器是否延遲傳送 */
+      "realtime":treu, // null | boolean
+      /* 控制器回傳時間 */
+      "deviceTime": "2021-12-20T05:01:24" // null | string
     },
   },
 }
